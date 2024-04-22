@@ -49,7 +49,7 @@ const EpisodeDetails = ({ episode }: { episode: IEpisodeDetail }) => {
         >
           <AccessTimeIcon />
           <Typography variant="body2" color="text.secondary" marginLeft={1}>
-            {episode.runtime}
+            {episode.runtime} min
           </Typography>
         </Stack>
 
