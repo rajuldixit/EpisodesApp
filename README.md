@@ -1,7 +1,6 @@
 # EpisodesApp
 
-![image](https://github.com/rajuldixit/EpisodesApp/assets/17043105/1d190a01-4ca2-4f55-a905-a3dba8822a0e)
-
+![image](https://github.com/rajuldixit/EpisodesApp/assets/17043105/0fdcbcf8-4487-49e9-ab48-acb991123223)
 
 Instructions:
 
