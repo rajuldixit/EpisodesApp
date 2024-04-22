@@ -1,4 +1,4 @@
-import { Container, Stack, Typography } from "@mui/material";
+import { Box, Container, Stack, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import EpisodeList from "../../Components/EpisodeList";
 import EpisodeDetails from "../../Components/EpisodeDetails";
@@ -21,7 +21,7 @@ const Episodes = () => {
     setFormattedEpisodes(resp);
   }, []);
   return (
-    <Container
+    <Box
       sx={{
         flexDirection: "row",
         display: "flex",
@@ -49,10 +49,10 @@ const Episodes = () => {
         {selectedEpisode ? (
           <EpisodeDetails episode={selectedEpisode} />
         ) : (
-          <Typography>No Episode selected</Typography>
+          <Typography>Pick an episode from the left</Typography>
         )}
       </Stack>
-    </Container>
+    </Box>
   );
 };
 
