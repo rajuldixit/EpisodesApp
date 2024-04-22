@@ -1,5 +1,8 @@
 # EpisodesApp
 
+![Uploading image.png…]()
+
+
 Instructions:
 
 Please convert the application to TypeScript and modify to deliver the acceptance criteria below.
